@@ -94,10 +94,24 @@ body {
   color: blue;
 }
 
-@media (min-width: 23.4rem){
+@media (min-width: 22rem){
   body {
-    padding: 0;
+    min-height: 0;
+    margin: 2rem;
+    font-size: 0.8rem;
   }
+
+  .learning {
+    max-width: 4rem;
+  }
+
+  .titulo a {
+    font-size: 1.3rem;
+  }
+
+  .avatar img {
+    width: 2rem;
+  }
+
 }
 
-/*Mobile: 375px midia query*/
